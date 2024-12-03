@@ -5,7 +5,6 @@
     border-bottom: 2px solid #EFF5FB;
 }
 
-
 .header {
     display: flex;
     flex-direction: row;
@@ -57,7 +56,6 @@
 }
 
 /*main сайта*/
-
 .main__nav-list {
     display: flex;
     padding: 0;
@@ -83,6 +81,7 @@
     margin-right: 8px;
 }
 
+/*Медиа запросы*/
 @media (max-width: 1343px) {
     .header__content {
         display: none;

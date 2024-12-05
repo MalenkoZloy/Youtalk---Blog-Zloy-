@@ -92,7 +92,7 @@
 }
 
 .main__div-blog__icon {
-    margin: 6px 4px 6px 8px;
+    margin-right: 4px;
 
 }
 
@@ -110,6 +110,7 @@
     display: inline-flex;
     align-items: center;
     margin: 0;
+    padding: 6px 8px 6px 8px;
 
 }
 
@@ -154,20 +155,18 @@
 @media (max-width: 680px) {
     .main__div-blog {
         flex-wrap: nowrap;
+        white-space: nowrap;
+        width: 100%;
+        overflow-y: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+        margin-top: 24px;
+        margin-left: -16px;
+        padding-left: 32px;
     }
-    .main__div-blog::-webkit-scrollbar {
-        display: none;
-    }
+
 }
 
-@media (max-width: 684px) {
-    .main__div-blog {
-        overflow-x: auto;
-        overflow-y: hidden;
-        white-space: nowrap;
-    }
-    }
-}
 
 @media (min-width: 1343px) {
     .header__burger {

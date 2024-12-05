@@ -81,6 +81,51 @@
     margin-right: 8px;
 }
 
+/*Блог сайта*/
+.main__div-blog {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 120px;
+
+}
+
+.main__div-blog__icon {
+    margin: 6px 4px 6px 8px;
+
+}
+
+.main__div-blog__button {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #333333;
+    border-radius: 24px;
+    border: 1px solid #C1C5CD;
+    background-color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+
+}
+
+.main__div-blog__h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 120px;
+}
+
+.main__div-blog__button-unicorn {
+    border: 3px solid #16C8BB;
+}
+
 /*Медиа запросы*/
 @media (max-width: 1343px) {
     .header__content {
@@ -97,6 +142,31 @@
     .main__nav-list {
         margin: 11px 8px 8px 16px;
     }
+    .main__div-blog {
+        flex-wrap: wrap;
+        margin: 11px 8px 8px 16px;
+    }
+    .main__div-blog__h1 {
+        margin: 11px 8px 8px 16px;
+    }
+}
+
+@media (max-width: 680px) {
+    .main__div-blog {
+        flex-wrap: nowrap;
+    }
+    .main__div-blog::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-width: 684px) {
+    .main__div-blog {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    }
 }
 
 @media (min-width: 1343px) {
@@ -104,3 +174,6 @@
         display: none;
     }
 }
+
+
+

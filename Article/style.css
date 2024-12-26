@@ -435,7 +435,6 @@
 }
 
 @media (max-width: 1024px) {
-
 	.types-sessions__present {
 		height: 72px;
 	}
@@ -479,7 +478,6 @@
 }
 
 @media (max-width: 768px) {
-
 	.aside__windows-paragraph {
 		margin-bottom: 47px;
 	}
@@ -526,5 +524,68 @@
 		width: 42vw;
 		height: 256px;
 	}
+}
 
+@media (max-width: 414px) {
+	.article__title {
+		font-size: 32px;
+	}
+	.page__main {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.main__section {
+		width: 89vw;
+	}
+	.article__image {
+		width: 88vw;
+	}
+	.comment__paragraph {
+		width: 374px;
+	}
+	.anxiety-tips__additional {
+		display: unset;
+	}
+	.anxiety-tips__additional-image {
+		width: 87vw;
+	}
+	.anxiety-tips__additional-three {
+		display: unset;
+	}
+	.aside__windows {
+		width: 74vw;
+	}
+	.aside__loading {
+		min-width: 74vw;
+	}
+	.aside__care-card {
+		width: 89vw;
+		height: 292px;
+	}
+	.aside__types-sessions {
+		width: 79vw;
+	}
+	.anxiety-tips__list {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.aside__windows {
+		width: 70vw;
+	}
+	.aside__loading {
+		min-width: 70vw;
+	}
+	.aside__types-sessions {
+		width: 76vw;
+	}
+	.page__main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.comment__paragraph {
+		width: 270px;
+		font-size: 14px;
+	}
 }
